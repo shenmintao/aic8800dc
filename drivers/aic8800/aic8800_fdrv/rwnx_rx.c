@@ -30,6 +30,10 @@
 #define IEEE80211_MAX_CHAINS 4
 #endif
 
+#ifndef in_irq
+#define in_irq() (irq_count())
+#endif
+
 u8 dhcped = 0;
 
 u16 tx_legrates_lut_rate[] = {
