@@ -1,5 +1,24 @@
 # aic8800dc
 
+> [!IMPORTANT]
+> **Maintenance has moved to
+> [`shenmintao/aic8800d80`](https://github.com/shenmintao/aic8800d80).**
+> The newer repository supports AIC8800DC (`a69c:88dc`) and AIC8800DE
+> (`a69c:88de`, including storage mode `a69c:5722`) and receives current Linux
+> kernel compatibility updates. Please use it for new installations and bug
+> reports.
+>
+> Use the `main` branch by default. If the driver log reports
+> `chip_id=7, chip_mcu_id=1`, use the `legacy-mcu1` branch instead. Do not
+> install both repositories at the same time because they use the same module
+> and firmware names. Remove the old installation, then follow the
+> [current installation instructions](https://github.com/shenmintao/aic8800d80#installation-steps).
+
+## Legacy instructions
+
+The instructions below are retained for historical reference and are no
+longer maintained.
+
 Tested on Linux kernel 6.14 with Ubuntu.
 
 ### Attention
